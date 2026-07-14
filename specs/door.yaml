@@ -1,0 +1,5 @@
+stack_name: my-door
+resources:
+  - type: piston_door
+    name: front_door
+    position: [30, -60, 30]

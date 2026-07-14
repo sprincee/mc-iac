@@ -1,0 +1,7 @@
+stack_name: animal-barn
+resources:
+  - type: barn
+    name: livestock_barn
+    position: [150, -60, 0]
+    size: large
+    pen_count: 2

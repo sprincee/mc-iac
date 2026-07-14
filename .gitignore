@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local Minecraft server (world data, jar, server.properties with RCON password)
+server/
+
+# mc-iac runtime state (machine-specific, like .tfstate — don't commit)
+.mc_iac_state/
+state.json
+test_state.json
+
+# Local credentials
+.env
+rcon.local.json

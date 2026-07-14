@@ -1,0 +1,5 @@
+stack_name: village-well
+resources:
+  - type: well
+    name: town_well
+    position: [0, -60, 0]

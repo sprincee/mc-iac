@@ -1,0 +1,7 @@
+stack_name: enchanting-tower
+resources:
+  - type: enchanting_tower
+    name: mage_tower
+    position: [120, -60, 0]
+    floors: 3
+    footprint: 7

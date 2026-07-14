@@ -1,0 +1,7 @@
+stack_name: my-single-block
+resources:
+  - type: command_block
+    name: greeting_block
+    position: [20, -55, 5]
+    command: "say this block was provisioned by mc-iac"
+    mode: impulse

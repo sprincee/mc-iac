@@ -1,0 +1,23 @@
+# The connector demo: a starter house and a farm, joined by a path.
+# House door is centered on its south wall (x+4 = 104, exits at z=108);
+# farm gate faces west at (119, 116). The path runs between them.
+stack_name: my-village
+resources:
+  - type: starter_house
+    name: home
+    position: [100, -60, 100]
+    size: small
+
+  - type: farm
+    name: carrot_farm
+    position: [126, -60, 116]
+    radius: 6
+    crop: carrot
+    gate_facing: west
+
+  - type: path
+    name: home_to_farm
+    from: [104, -60, 109]
+    to: [118, -60, 116]
+    width: 3
+    seed: 7

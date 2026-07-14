@@ -1,0 +1,5 @@
+stack_name: smithy
+resources:
+  - type: blacksmith
+    name: village_smithy
+    position: [190, -60, 0]

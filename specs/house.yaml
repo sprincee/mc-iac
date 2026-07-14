@@ -1,0 +1,14 @@
+stack_name: starter-home
+resources:
+  - type: starter_house
+    name: main_house
+    position: [0, -60, 0]
+    size: small
+    wall_material: oak_planks
+    frame_material: dark_oak_log
+    roof_material: dark_oak_stairs
+    floor_material: stone_bricks
+    include_kitchen: true
+    include_crafting_area: true
+    include_bed: true
+    include_storage: true

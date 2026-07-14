@@ -1,0 +1,8 @@
+stack_name: standalone-path
+resources:
+  - type: path
+    name: demo_path
+    from: [80, -60, 0]
+    to: [100, -60, 10]
+    width: 3
+    seed: 42

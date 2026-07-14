@@ -1,0 +1,7 @@
+stack_name: my-first-stack
+resources:
+  - type: command_block
+    name: test_greeting
+    position: [10, -55, 10]
+    command: "say hello from mc-iac"
+    mode: impulse

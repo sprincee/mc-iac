@@ -1,0 +1,9 @@
+stack_name: crop-farm
+resources:
+  - type: farm
+    name: wheat_field
+    position: [60, -60, 10]
+    radius: 6
+    crop: wheat
+    fence_material: oak_fence
+    gate_facing: south
